@@ -99,7 +99,7 @@ export default function Section1975() {
               {/* Video YouTube ăn mừng chiến thắng 1975 */}
               <div className="w-full" style={{ aspectRatio: '16 / 9' }}>
                 <iframe
-                  src="https://www.youtube.com/embed/ecJSxFzvSKk?autoplay=1&controls=0&rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=vi&hl=vi"
+                  src="https://www.youtube.com/embed/ecJSxFzvSKk?controls=1&rel=0&modestbranding=1&playsinline=1&cc_load_policy=1&cc_lang_pref=vi&hl=vi"
                   title="Chiến thắng giải phóng miền Nam 1975"
                   className="h-full w-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

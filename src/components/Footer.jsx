@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container-page flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
         <div>
           <div className="text-sm font-semibold">Dự án học tập</div>
-          <div className="mt-1 text-xs text-white/70">Khóa học VNR202</div>
+          <div className="mt-1 text-xs text-white/70">Môn học VNR202</div>
         </div>
         <a
           href="#top"
