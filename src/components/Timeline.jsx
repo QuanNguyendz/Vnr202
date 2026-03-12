@@ -31,11 +31,25 @@ const DETAIL_CONTENT = {
     year: '1975',
     title: 'Giải phóng miền Nam – Thống nhất đất nước',
     bullets: [
-      { text: 'Tổng tiến công mùa Xuân 1975' },
-      { text: 'Chiến dịch Tây Nguyên' },
-      { text: 'Chiến dịch Huế – Đà Nẵng' },
-      { text: 'Chiến dịch Hồ Chí Minh' },
-      { text: '30/4/1975: giải phóng Sài Gòn' },
+      { text: 'Cuộc kháng chiến chống Mỹ bước vào giai đoạn quyết định, thời cơ chiến lược chín muồi để giải phóng hoàn toàn miền Nam.' },
+      { text: 'Dưới sự lãnh đạo của Đảng, quân và dân ta mở Cuộc Tổng tiến công và nổi dậy mùa Xuân 1975 với nhịp độ “thần tốc, táo bạo, bất ngờ, chắc thắng”.' },
+      {
+        text: 'Các chiến dịch lớn trong mùa Xuân 1975:',
+        children: [
+          { text: 'Chiến dịch Tây Nguyên (3/1975): đòn mở đầu, tạo đột biến chiến lược, làm tan rã hệ thống phòng thủ của đối phương ở Tây Nguyên.' },
+          { text: 'Chiến dịch Huế – Đà Nẵng (3/1975): giải phóng Huế, Đà Nẵng và nhiều địa bàn miền Trung, tạo thế bao vây chiến lược đối với Sài Gòn.' },
+          { text: 'Chiến dịch Hồ Chí Minh (26–30/4/1975): chiến dịch cuối cùng, tập trung lực lượng lớn tiến công giải phóng Sài Gòn – Gia Định.' },
+        ],
+      },
+      { text: 'Ngày 30/4/1975: Quân giải phóng tiến vào Sài Gòn; chính quyền Sài Gòn sụp đổ, chiến dịch toàn thắng.' },
+      {
+        text: 'Kết quả và ý nghĩa:',
+        children: [
+          { text: 'Giải phóng hoàn toàn miền Nam.' },
+          { text: 'Thống nhất đất nước, chấm dứt tình trạng chia cắt kéo dài nhiều năm.' },
+          { text: 'Mở ra thời kỳ mới: cả nước đi lên xây dựng chủ nghĩa xã hội.' },
+        ],
+      },
     ],
   },
   '1976': {
